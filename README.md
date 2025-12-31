@@ -11,4 +11,9 @@ cd Utils-V2--1.2
 and when you are in the folder, run this commands in order:
 
 chmod +x install.sh
+THen:
 sudo ./install.sh
+
+# Usage 
+to use it run "utils"in your console 
+Hope you enjoy!!
