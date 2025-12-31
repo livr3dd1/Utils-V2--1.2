@@ -4,15 +4,15 @@ Utils V2 its here!. this tool helps you with complicated taks, so you dont get h
 # Installation 
 To install it first, you need git, now the command
 
-git clone https://github.com/livr3dd1/Utils-V2--1.2
-When it finishes:
-cd Utils-V2--1.2
+#git clone https://github.com/livr3dd1/Utils-V2--1.2
+ When it finishes:
+#cd Utils-V2--1.2
 
 and when you are in the folder, run this commands in order:
 
-chmod +x install.sh
-THen:
-sudo ./install.sh
+#chmod +x install.sh
+Then:
+#sudo ./install.sh
 
 # Usage 
 to use it run "utils"in your console 
