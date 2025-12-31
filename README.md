@@ -6,7 +6,7 @@ To install it first, you need git, now the command
 
 # git clone https://github.com/livr3dd1/Utils-V2--1.2
 When it finishes:
-# cd Utils-V2--1.2
+# cd Utils-V2--1.2 and cd UtilsV2
 
 and when you are in the folder, run this commands in order:
 
