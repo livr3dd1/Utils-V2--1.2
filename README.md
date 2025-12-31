@@ -10,9 +10,9 @@ When it finishes:
 
 and when you are in the folder, run this commands in order:
 
-#chmod +x install.sh
+# chmod +x install.sh
 Then:
-#sudo ./install.sh
+# sudo ./install.sh
 
 # Usage 
 to use it run "utils"in your console 
