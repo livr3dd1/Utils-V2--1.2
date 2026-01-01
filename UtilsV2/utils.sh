@@ -87,24 +87,32 @@ read -p "What will you do: " opt
 
        read -p "What will you do: " opti
        case $opti in
-       1) echo -e "${GREEN}[⚙️]Starting module...${RESET}
-           bash modules/PATH.sh
-         ;;
-       2)echo -e "${GREEN}[⚙]Starting module..${RESET}
-          bash modules/common.sh
-         ;;
-       3)echo -e "${GREEN}[⚙]Starting module..${RESET}
-          bash modules/better.sh
-         ;;
-       4)echo -e "${GREEN}[⚙]Starting module..${RESET}
-          bash modules/kernel.sh
-         ;;
-       5)echo -e "${GREEN}[⚙]Starting module..${RESET}
-          bash modules/HOTFIX.sh
-         ;;
-       6)echo -e "${GREEN}[⚙]Fetching...${RESET}
-          fastfetch
-        ;;
+         1)echo -e "${GREEN}[📡]Opening the module...${RESET}"
+            sleep 2
+
+            bash modules/PATH.sh
+          ;;
+         2)echo -e "${GREEN}[⚙]Opening the module...${RESET}"
+            sleep 2
+            sudo bash modules/common.sh
+          ;;
+         3)echo -e "${GREEN}[🛠]Opening the module...${RESET}"
+            sleep 2
+            sudo bash modules/better.sh
+          ;;
+         4)echo -e "${GREEN}[/]Opening the module...${RESET}"
+            sleep 2
+            sudo bash modules/kernel.sh
+          ;;
+         5)echo -e "${GREEN}[🛠]Opening the module...${RESET}"
+           sudo bash modules/HOTFIX.sh
+          ;;
+
+         6)echo -e "${GREEN}[🛠]Fetching Info..."
+           sleep 2
+           fastfetch
+          ;;
+
        esac
       
 
